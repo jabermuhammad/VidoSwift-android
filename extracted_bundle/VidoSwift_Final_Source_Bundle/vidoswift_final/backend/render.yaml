@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: vidoswift-api
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    healthCheckPath: /v1/health
+    envVars:
+      - key: MAX_CONCURRENT_JOBS
+        value: "2"

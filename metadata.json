@@ -1,0 +1,7 @@
+{
+  "name": "VidoSwift Download Studio",
+  "description": "Video metadata analyzer and download studio for authorized sources, featuring authentic mobile and desktop clients and complete Android bundle.",
+  "requestFeedback": false,
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
